@@ -1,0 +1,17 @@
+{
+    "name": "ostapetc/php-socket-examples",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^8.4",
+        "monolog/monolog": "^2.0"
+    },
+    "authors": [
+        {
+            "name": "artemostapetc",
+            "email": "artemostapetc@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"PhpStorage\\": "src/"}
+    }
+}

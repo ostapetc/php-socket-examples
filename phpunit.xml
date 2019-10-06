@@ -1,0 +1,21 @@
+<phpunit
+        bootstrap="./vendor/autoload.php"
+        cacheTokens="false"
+        colors="true"
+        convertErrorsToExceptions="true"
+        convertNoticesToExceptions="true"
+        convertWarningsToExceptions="true"
+        stopOnFailure="true"
+        cacheResult="true">
+
+    <php>
+        <env name="serverAddress" value="127.0.0.1"/>
+        <env name="serverPort" value="5000"/>
+    </php>
+    
+    <testsuites>
+        <testsuite name="commands">
+            <directory>app/commands</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
